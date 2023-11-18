@@ -13,6 +13,7 @@ nav {
     width: 100%;
     font-size: larger;
     letter-spacing: 1cm;
+    font-style: bolder;
     z-index: 2; /* Ensure the navigation is above the shape divider */
 }
 
@@ -24,7 +25,6 @@ nav ul {
 
 #happy p {
     text-align: left;
-    font-style: bold;
     padding-left: 100px;
 }
 
@@ -33,6 +33,18 @@ nav ul {
     padding-left: 300px;
 }
 
+#happy p, #bdaymsg p {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateX(-3%);
+    transition: transform 1s ease-out;
+}
+
+nav:hover #happy p, nav:hover #bdaymsg p {
+    transform: translateX(0);
+    color: #8ECDDD;
+}
 header {
     position: relative;
 }
