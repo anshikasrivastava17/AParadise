@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(57, 57, 57);
+    margin: 0;
+}
+
+nav {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: larger;
+    letter-spacing: 1cm;
+    z-index: 2; /* Ensure the navigation is above the shape divider */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#happy p {
+    text-align: left;
+    font-style: bold;
+    padding-left: 100px;
+}
+
+#bdaymsg p {
+    text-align: right;
+    padding-left: 300px;
+}
+
+header {
+    position: relative;
+}
+
+.custom-shape-divider-top-1700333136 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0; /* Ensure the shape divider is behind the navigation */
+}
+
+.custom-shape-divider-top-1700333136 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 192px;
+}
+
+.custom-shape-divider-top-1700333136 .shape-fill {
+    fill: #df9370;
+}
