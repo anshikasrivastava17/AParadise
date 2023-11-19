@@ -45,7 +45,7 @@ nav ul {
 
 nav:hover #happy p, nav:hover #bdaymsg p {
     transform: translateX(0);
-    color: #8ECDDD;
+    color: black;
 }
 header {
     position: relative;
@@ -75,11 +75,10 @@ header {
 /* ------------------------------------------ */
 
 .circle {
-    width: 100px; /* Adjust the width and height as needed */
+    width: 100px;
     height: 100px;
-    background-color: #f0f0f0; /* Circle background color */
-    border-radius: 50%; /* Makes it a circle */
-    /* display: flex; */
+    background-color: #f0f0f0;
+    border-radius: 50%;
     align-items: left;
     justify-content: left;
     overflow: hidden; /* Clip the image to the circle */
@@ -122,7 +121,7 @@ header {
   
   .note {
     font-size: 1.1rem;
-    color: rgba(1, 5, 12, 0.901); /* Corrected color definition */
+    color: rgba(1, 5, 12, 0.901); 
     font-style: italic;
   }
   
@@ -134,8 +133,7 @@ header {
   
   .review {
     margin: 0 1rem;
-    max-width: 50%; /* Set the width to 100% to make it responsive and take the full width */
-    /* max-width: 500px; */
+    max-width: 50%;
     width: calc(33.33% - 2rem); 
     flex: 1;
   }
