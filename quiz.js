@@ -1,29 +1,29 @@
 //Question bank
 var questionBank= [
     {
-        question : 'Before drifting off to sleep, who is the person I bid goodnight to every day?',
+        question : 'Before drifting off to sleep, who is the person you bid goodnight to every day?',
         option : ['Mom','Dad','Kichi','Mai apni fav hun'],
         answer : 'Kichi'
     },
     {
-        question : 'Garampani sanctuary is located at',
-        option : ['Junagarh, Gujarat','Diphu, Assam','Kohima, Nagaland','Gangtok, Sikkim'],
-        answer : 'Diphu, Assam'
+        question : 'What was the day of the week when you were born? (Dont look up the calendar)',
+        option : ['Saturday','Wednesday','Friday','Sunday'],
+        answer : 'Sunday'
     },
     {
-        question : 'For which of the following disciplines is Nobel Prize awarded?',
-        option : ['Physics and Chemistry','Physiology or Medicine','Literature, Peace and Economics','All of the above'],
-        answer : 'All of the above'
+        question : 'What is your "role" in groups according to you ',
+        option : ['The Mom','Party Animal','Joker','Lil Kiddo'],
+        answer : 'Lil Kiddo'
     },
     {
-        question : 'Hitler party which came into power in 1933 is known as',
-        option : ['Labour Party','Nazi Party','Ku-Klux-Klan','Democratic Party'],
-        answer : 'Nazi Party'
+        question : 'What is the one thing people instantly adore the most in you',
+        option : ['Beauty','Chirpiness','Laughter','Personality'],
+        answer : 'Chirpiness'
     },
     {
-        question : 'First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in',
-        option : ['1967','1968','1958','1922'],
-        answer : '1967'
+        question : 'Apara Agarwal once said -  ',
+        option : ['Burger is love','Bhai I love you','This is limit','Aj mera bday hai'],
+        answer : 'This is limit'
     }
 ]
 
@@ -45,7 +45,7 @@ function displayQuestion(){
     for(var a=0;a<span.length;a++){
         span[a].style.background='none';
     }
-    question.innerHTML= 'Q.'+(i+1)+' '+questionBank[i].question;
+    question.innerHTML= 'Q'+(i+1)+'. '+questionBank[i].question;
     option0.innerHTML= questionBank[i].option[0];
     option1.innerHTML= questionBank[i].option[1];
     option2.innerHTML= questionBank[i].option[2];

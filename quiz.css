@@ -66,7 +66,7 @@ span{
 }
 #stat{
     margin-top: 1.5rem;
-    color: rgb(6,17,168);
+    color: rgb(198, 200, 226);
 }
 .buttons{
     text-align: center;
@@ -76,16 +76,19 @@ button{
     border: none;
     outline: none;
     font-size: 1.5rem;
+    position: relative;
+    top: 50px;
     border-radius: 1.5rem;
-    color: rgba(93,53,156,0.98);
-    background: rgba(161,177,19,0.82);
+    color: rgba(172, 165, 183, 0.98);
+    background: rgba(29, 31, 14, 0.82);
 }
 button:active{
     background: lavender;
 }
 #scoreboard,#answerBank{
-    width: 20rem;
-    background: rgba(230,230,250,0.77);
+    width: 25rem;
+    height: 27rem;
+    background: rgba(189, 189, 196, 0.77);
     padding: 2rem;
     text-align: center;
     margin: auto;
