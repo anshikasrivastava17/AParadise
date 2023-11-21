@@ -1,9 +1,9 @@
 //Question bank
 var questionBank= [
     {
-        question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option : ['Asia','Africa','Europe','Australia'],
-        answer : 'Africa'
+        question : 'Before drifting off to sleep, who is the person I bid goodnight to every day?',
+        option : ['Mom','Dad','Kichi','Mai apni fav hun'],
+        answer : 'Kichi'
     },
     {
         question : 'Garampani sanctuary is located at',
