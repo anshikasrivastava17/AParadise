@@ -8,11 +8,8 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
-    background-color: #b6c4cd;
+    background-color: rgb(57, 57, 57);
 }
-
-
-
 
 * {
     margin: 0;
@@ -30,7 +27,7 @@ body {
   .container {
     max-width: 1200px;
     width: 95%;
-    padding-top: 20px;
+    padding-top: 150px;
   }
   .slider-wrapper {
     position: relative;
