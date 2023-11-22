@@ -75,7 +75,7 @@ function nextQuestion(){
         displayQuestion();
     }
     else{
-        points.innerHTML= score+ '/'+ questionBank.length;
+        points.innerHTML= score+ '/'+ questionBank.length + "\nRETRY!";
         quizContainer.style.display= 'none';
         scoreboard.style.display= 'block';
         if(score === 5)
