@@ -84,15 +84,13 @@ function nextQuestion(){
 
 //click events to next button
 next.addEventListener('click',nextQuestion);
-// celebrateButton.addEventListener('click', celebrate);
 //Back to Quiz button event
 function backToQuiz(){
     location.reload();
 }
 
 function celebrate() {
-    celebrateButton.style.display = 'block';
-    alert("Congratulations! You scored 5 points. Time to celebrate!");
+    alert("Congratulations Birthday girl! Time to celebrate!");
     window.location.href = 'celebrate.html';
 }
 
