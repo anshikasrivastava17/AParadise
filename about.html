@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 10;
+            margin: 30px 100px;
             padding: 0;
             background-color: rgb(57, 57, 57);
         }
@@ -16,10 +16,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             text-align: center;
             border: 2px solid white; /* Add a white border around the container */
-            padding: 20px; /* Add padding for better visual appearance */
+            padding: 2px; /* Add padding for better visual appearance */
         }
 
         .section {
@@ -28,58 +27,89 @@
             margin: 20px 0;
         }
 
+        .content-container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: rgb(234, 230, 172);
+        }
+
         .image-container {
             width: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             overflow: hidden; /* Ensure the image won't exceed the container */
-            border-radius: 10px; /* Make the container a square with rounded corners */
+            border-radius: 10px; 
         }
 
         .image {
-            max-width: 50%; /* Ensure the image won't exceed its container */
-            height: auto; /* Maintain the aspect ratio of the image */
+            max-width: 60%; /* Ensure the image won't exceed its container */
+            width: 450px;
+            height: 400px; /* Maintain the aspect ratio of the image */
             border-radius: 10px; /* Make the image a square with rounded corners */
         }
 
         .text {
-            width: 50%;
-            padding: 10px;
+            width: 70%;
+            padding: 20px;
             box-sizing: border-box;
             color: white; /* Set text color to white for better visibility on the dark background */
+        }
+
+        p{
+            background-color: rgb(239, 148, 142);
+            padding: 50px;
+            margin-right: 40px;
+            border-radius: 4px;
+            font-size: larger;
+            text-align: justify;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="section">
-            <div class="image-container">
-                <img class="image" src="images/about1.jpg" alt="Image 1">
-            </div>
-            <div class="text">
-                <h2>Section 1</h2>
-                <p>This is some text for the first section.</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="text">
-                <h2>Section 2</h2>
-                <p>This is some text for the second section.</p>
-            </div>
-            <div class="image-container">
-                <img class="image" src="images/about2.jpg" alt="Image 2">
+            <div class="content-container">
+                <div class="image-container">
+                    <img class="image" src="images/about1.jpg" alt="Image 1">
+                </div>
+                <div class="text">
+                    <p>In a world of wonder, a small, small girl, <br>
+                        Cute as a button, her hair in a twirl. <br>
+                        An angelic presence, a joy to behold, <br>
+                        With laughter that sparkles, more precious than gold. <br>
+                        Her tiny arms embrace a basket so dear, <br>
+                        A cherub on earth, spreading love far and near. <br></p>
+                </div>
             </div>
         </div>
 
         <div class="section">
-            <div class="image-container">
-                <img class="image" src="images/about3.jpg" alt="Image 3">
+            <div class="content-container">
+                <div class="text">
+                    <p>
+                        In a schoolgirl's world of books and pens, <br>
+                        Responsibilities she bears, a weight that lends. <br>
+                        Intelligence sparkles in her eager eyes, <br>
+                        Innocence woven in every thoughtful guise. <br>
+                        Balancing tasks with a heart full of grace, <br>
+                        A beacon of potential, a scholarly embrace.</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="images/about2.jpg" alt="Image 2">
+                </div>
             </div>
-            <div class="text">
-                <h2>Section 3</h2>
-                <p>This is some text for the third section.</p>
+        </div>
+
+        <div class="section">
+            <div class="content-container">
+                <div class="image-container">
+                    <img class="image" src="images/about3.jpg" alt="Image 3">
+                </div>
+                <div class="text">
+                    <h2>Section 3</h2>
+                    <p>This is some text for the third section.</p>
+                </div>
             </div>
         </div>
     </div>
