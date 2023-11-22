@@ -35,6 +35,7 @@ var option1= document.getElementById('option1');
 var option2= document.getElementById('option2');
 var option3= document.getElementById('option3');
 var next= document.querySelector('.next');
+var celebrateButton = document.getElementById('celebrateButton');
 var points= document.getElementById('score');
 var span= document.querySelectorAll('span');
 var i=0;
@@ -76,16 +77,23 @@ function nextQuestion(){
     else{
         points.innerHTML= score+ '/'+ questionBank.length;
         quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
-    }
-}
+        scoreboard.style.display= 'block';
+        if(score === 5)
+        celebrate();
+}}
 
 //click events to next button
 next.addEventListener('click',nextQuestion);
-
+// celebrateButton.addEventListener('click', celebrate);
 //Back to Quiz button event
 function backToQuiz(){
     location.reload();
+}
+
+function celebrate() {
+    celebrateButton.style.display = 'block';
+    alert("Congratulations! You scored 5 points. Time to celebrate!");
+    window.location.href = 'celebrate.html';
 }
 
 //function to check Answers

@@ -84,6 +84,7 @@ button{
 }
 button:active{
     background: lavender;
+    color: black;
 }
 #scoreboard,#answerBank{
     width: 25rem;
